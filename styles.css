@@ -102,3 +102,9 @@ a {
 .six {
     background-color: #1c3e57;
 }
+
+@media only screen and (min-width: 600px) {
+    .frames {
+        width: calc(50% - 40px);
+    }
+}
