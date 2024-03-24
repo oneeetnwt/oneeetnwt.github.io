@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: #191919;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+}
+.header {
+    height: auto;
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+button > svg {
+    fill: #191919;
+    height: 30px;
+    width: 30px;
+    transition: all 0.5s ease-in-out;
+}
+button > svg:hover {
+    fill: rgba(25, 25, 25, 0.75);
+}
+.header > h1 {
+    font-weight: 200;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Main */
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.frames {
+    width: 380px;
+    height: 300px;
+    background-color: #D9D9D9;
+    margin: 20px;
+    border-radius: 24px;
+    box-sizing: content-box;
+}
+.frames > h1 {
+    margin: 20px 0 0 20px;
+    font-weight: 800;
+}
+.frames > p {
+    color: #191919;
+    margin-left: 20px;
+    margin-top: 0;
+}
+.framecolor {
+    border-radius: 24px 24px 0 0;
+    background-color: blue;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+svg {
+    width: 100px;
+    height: 100px;
+    opacity: 75%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Color */
+.one {
+    background-color: #ed0000;
+}
+.two {
+    background-color: #fc3c00;
+}
+.three {
+    background-color: #fbb500;
+}
+.four {
+    background-color: #00ab1b;
+}
+.five {
+    background-color: #0057ff;
+}
+.six {
+    background-color: #1c3e57;
+}
